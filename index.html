@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Birthday Lock</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="Birthday_Cake.ico">
+</head>
+
+<body>
+  <div>
+    <div class='center-dial'>
+      <h1 class='center-preview'>HELLO</h1>
+      <div class='head'></div>
+      <div class='torso'></div>
+      <div class='hand-container' id='minutes'>
+        <div class='minute-hand'></div>
+      </div>
+      <div class='hand-container' id='hours'>
+        <div class='hour-hand'></div>
+      </div>
+      <div class='hand-container' id='seconds'>
+        <div class='second-hand'></div>
+      </div>
+    </div>
+    <div class='day-name-dial'>
+      <div class='ring-back'></div>
+      <div class='ring' id='r1'>
+        <h1 class='day-name-preview'>DAY NAME</h1>
+        <h2 class='day-name-text'>MON TUE WED THU FRI SAT SUN</h2>
+      </div>
+    </div>
+    <div class='month-dial'>
+      <div class='ring-back'></div>
+      <div class='ring' id='r2'>
+        <h1 class='month-preview'>MONTH</h1>
+        <h2 class='month-text'>FAR ORD KHO TIR MOR SHA MEH ABA AZA DEY BAH ESF</h2>
+      </div>
+    </div>
+    <div class='day-dial'>
+      <div class='ring-back'></div>
+      <div class='ring' id='r3'>
+        <h1 class='day-preview'>DAY</h1>
+        <h2 class='day-text'>01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+          31</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="select-rotation">
+    <select id="month-select">
+      <option value="1">Farvardin</option>
+      <option value="2">Ordibehesht</option>
+      <option value="3">Khordad</option>
+      <option value="4">Tir</option>
+      <option value="5">Mordad</option>
+      <option value="6">Shahrivar</option>
+      <option value="7">Mehr</option>
+      <option value="8">Aban</option>
+      <option value="9">Azar</option>
+      <option value="10">Dey</option>
+      <option value="11">Bahman</option>
+      <option value="12">Esfand</option>
+    </select>
+
+    <select id="day-select">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+
+    <button id="rotate-dial">Tavalod Kist?</button>
+  </div>
+
+
+  <div class='side-ring' id='weather'>
+    <i class='fa fa-cloud'></i>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.lettering.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
